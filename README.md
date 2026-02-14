@@ -15,7 +15,7 @@ Este projeto demonstra a análise técnica de um reconhecimento de rede em um am
 ## 🚀 Metodologia
 No terminal do Kali Linux, executei o seguinte comando para identificar portas abertas de forma eficiente:
 
-Bash sudo nmap -sS  192.168.17.129 
+sudo nmap -sS  192.168.17.129 
 ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela2.png?raw=true)
 
 
@@ -47,7 +47,4 @@ Desvantagem: Detecção,Firewalls modernos e sistemas IDS detectam facilmente o 
 9. Ir na aba Estatisticas > conversations > tcp : Verificando se teria um IP (address A) com a mesma porta e outro IP (address B) com  varias portas alvo diferentes em curto espaço de tempo. 
 
 10. ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela5.png?raw=true)
-11.
-12. 
-13.
-14.
+   
