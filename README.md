@@ -23,7 +23,7 @@ ip.addr == 192.168.17.129
    ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela3.png?raw=true)
 
 
-🔍 Análise Técnica (O Diferencial)
+🔍 Análise Técnica 
 Comportamento da Porta Aberta (Handshake Incompleto)
 Diferente de uma conexão normal, o SYN Scan não completa o Three-Way Handshake.
 Kali → Alvo: Envia um pacote SYN (Request).
