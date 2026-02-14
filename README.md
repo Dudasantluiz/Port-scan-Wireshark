@@ -33,7 +33,7 @@ Kali → Alvo: Envia um RST (Reset) para fechar a conexão abruptamente.
 
 Análise: Isto evita que a aplicação alvo registe uma conexão completa, tornando o scan mais rápido e "silencioso" para logs de aplicação simples.
 
-**Vantagens e Desvantagens**
+  **Vantagens e Desvantagens**
 Vantagem: Velocidade,"Não espera a conclusão da conexão, permitindo escanear milhares de portas rapidamente."
 Vantagem: Discrição,"Por não completar o handshake, muitos serviços de log de aplicação não registram a tentativa."
 Desvantagem: Privilégio,Requer permissões de root/sudo para manipular pacotes crus (raw sockets).
