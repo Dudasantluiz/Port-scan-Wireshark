@@ -20,7 +20,8 @@ sudo nmap -sS  192.168.17.129  ![image alt](https://github.com/Dudasantluiz/Port
 
 
 2.Durante o scan, o Wireshark foi utilizado para monitorar a interface de rede. Filtrei o tráfego pelo IP do alvo para isolar os pacotes relevantes:
-ip.addr == 192.168.17.129
+ip.addr == 192.168.17.129 
+![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela3.png?raw=true)
 
 
 4. 🔍 🔍 Análise Técnica (O Diferencial)
