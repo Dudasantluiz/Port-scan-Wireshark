@@ -44,7 +44,8 @@ Desvantagem: Detecção,Firewalls modernos e sistemas IDS detectam facilmente o 
 8. ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela4.png?raw=true)
 
 9. Ir na aba Estatisticas > conversations > tcp : Verificando se teria um IP (address A) com a mesma porta e outro IP (address B) com  varias portas alvo diferentes em curto espaço de tempo. 
-10.
+
+10.![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela5.png?raw=true)
 11.
 12. 
 13.
