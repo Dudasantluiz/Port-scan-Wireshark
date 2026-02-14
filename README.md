@@ -1,4 +1,4 @@
-# 🛡️ Análise de Varredura de Portas: Nmap (SYN Scan) + Wireshark
+# 🛡️ Análise de Varredura de Portas: Wireshark
 
 ## 📝 Descrição do Projeto
 Este projeto demonstra a análise técnica de um reconhecimento de rede em um ambiente de laboratório controlado. O objetivo é observar e documentar o comportamento do protocolo **TCP** durante um **Stealth Scan (-sS) e a atividade de uma varredura de portas utilizando o Wireshark no Kali Linux contra o Metasploitable 2.
@@ -12,19 +12,19 @@ Este projeto demonstra a análise técnica de um reconhecimento de rede em um am
   ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela1.png?raw=true)
 
 ## 🚀 Metodologia
-
-1. No terminal do Kali Linux, executei o seguinte comando para identificar portas abertas de forma eficiente:
+No terminal do Kali Linux, executei o seguinte comando para identificar portas abertas de forma eficiente:
 
 Bash
-sudo nmap -sS  192.168.17.129  ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela2.png?raw=true)
+sudo nmap -sS  192.168.17.129 
+![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela2.png?raw=true)
 
 
-2.Durante o scan, o Wireshark foi utilizado para monitorar a interface de rede. Filtrei o tráfego pelo IP do alvo para isolar os pacotes relevantes:
+Durante o scan, o Wireshark foi utilizado para monitorar a interface de rede. Filtrei o tráfego pelo IP do alvo para isolar os pacotes relevantes:
 ip.addr == 192.168.17.129 
 ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela3.png?raw=true)
 
 
-4. 🔍 🔍 Análise Técnica (O Diferencial)
+🔍 Análise Técnica (O Diferencial)
 Comportamento da Porta Aberta (Handshake Incompleto)
 Diferente de uma conexão normal, o SYN Scan não completa o Three-Way Handshake.
 Kali → Alvo: Envia um pacote SYN (Request).
@@ -49,4 +49,4 @@ Desvantagem: Detecção,Firewalls modernos e sistemas IDS detectam facilmente o 
 11.
 12. 
 13.
-14. 📁 Arquivos no Repositórioanalysis_capture.pcapng: Ficheiro de captura para análise detalhada no Wireshark.screenshots/: Imagens do laboratório.Dicas para finalizar no GitHub:Cria o ficheiro: Clica em "Add file" -> "Create new file" e dá o nome de README.md.Sobe o PCAP: Não te esqueças de subir o arquivo do Wireshark (Export Specified Packets). Isso dá muita credibilidade.Personaliza os IPs: No texto, usa os IPs reais que apareceram nos teus prints para haver coerência.
+14.
