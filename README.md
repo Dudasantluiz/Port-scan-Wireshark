@@ -16,7 +16,7 @@ Este projeto demonstra a análise técnica de um reconhecimento de rede em um am
 1. No terminal do Kali Linux, executei o seguinte comando para identificar portas abertas de forma eficiente:
 
 Bash
-sudo nmap -sS  192.168.17.129
+sudo nmap -sS  192.168.17.129  ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela2.png?raw=true)
 
 
 2.Durante o scan, o Wireshark foi utilizado para monitorar a interface de rede. Filtrei o tráfego pelo IP do alvo para isolar os pacotes relevantes:
