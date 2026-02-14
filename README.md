@@ -9,6 +9,7 @@ Este projeto demonstra a análise técnica de um reconhecimento de rede em um am
 * **Alvo:** Metasploitable 2 (IP: `192.168.17.129`)
 * **Ferramentas:** Nmap & Wireshark
 * **Rede:** Host-Only (Isolada)
+* 
   ![image alt](https://github.com/Dudasantluiz/Port-scan-no-Wireshark/blob/main/Tela1.png?raw=true)
 
 ## 🚀 Metodologia
